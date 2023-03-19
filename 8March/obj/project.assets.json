@@ -1,0 +1,595 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Flurl/2.8.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Flurl.Http/2.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "2.8.2",
+          "Newtonsoft.Json": "12.0.2",
+          "System.Text.Encoding.CodePages": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.46": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        }
+      },
+      "HtmlAgilityPack.CssSelectors/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "HtmlAgilityPack": "1.4.9"
+        },
+        "compile": {
+          "lib/net45/HtmlAgilityPack.CssSelectors.dll": {
+            "related": ".pdb"
+          },
+          "lib/net45/HtmlAgilityPack.dll": {
+            "related": ".CssSelectors.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/HtmlAgilityPack.CssSelectors.dll": {
+            "related": ".pdb"
+          },
+          "lib/net45/HtmlAgilityPack.dll": {
+            "related": ".CssSelectors.pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "VkNet/1.48.1": {
+        "type": "package",
+        "dependencies": {
+          "Flurl": "2.8.2",
+          "Flurl.Http": "2.4.2",
+          "HtmlAgilityPack": "1.11.16",
+          "Microsoft.Extensions.DependencyInjection": "3.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "3.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/VkNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/VkNet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WebsiteParser/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "HtmlAgilityPack.CssSelectors": "1.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebsiteParser.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebsiteParser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flurl/2.8.2": {
+      "sha512": "3VEYAqkGTGHgla4xuyEB4d8XGLeMX2k05C4WfI7YmKQHsL7RhoGu3L6h1xsKKTPFWjEL13p09XOIGwD1pQ86dg==",
+      "type": "package",
+      "path": "flurl/2.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flurl.2.8.2.nupkg.sha512",
+        "flurl.nuspec",
+        "lib/net40/Flurl.dll",
+        "lib/net40/Flurl.xml",
+        "lib/netstandard1.0/Flurl.dll",
+        "lib/netstandard1.0/Flurl.xml",
+        "lib/netstandard1.3/Flurl.dll",
+        "lib/netstandard1.3/Flurl.xml",
+        "lib/netstandard2.0/Flurl.dll",
+        "lib/netstandard2.0/Flurl.xml"
+      ]
+    },
+    "Flurl.Http/2.4.2": {
+      "sha512": "VfSJ0DKzh6kf2IOZGG1/JpHajhtqzGp1t+M1QSyFGse7c4Gg1DpH80LTveYea2hV1BEtvPPEp6A4iZ78D8bxGQ==",
+      "type": "package",
+      "path": "flurl.http/2.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flurl.http.2.4.2.nupkg.sha512",
+        "flurl.http.nuspec",
+        "lib/net45/Flurl.Http.dll",
+        "lib/net45/Flurl.Http.xml",
+        "lib/net46/Flurl.Http.dll",
+        "lib/net46/Flurl.Http.xml",
+        "lib/netstandard1.1/Flurl.Http.dll",
+        "lib/netstandard1.1/Flurl.Http.xml",
+        "lib/netstandard1.3/Flurl.Http.dll",
+        "lib/netstandard1.3/Flurl.Http.xml",
+        "lib/netstandard2.0/Flurl.Http.dll",
+        "lib/netstandard2.0/Flurl.Http.xml"
+      ]
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "sha512": "dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "type": "package",
+      "path": "htmlagilitypack/1.11.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlagilitypack.1.11.46.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net35/HtmlAgilityPack.dll",
+        "lib/Net35/HtmlAgilityPack.pdb",
+        "lib/Net35/HtmlAgilityPack.xml",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.3/HtmlAgilityPack.dll",
+        "lib/netstandard1.3/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.xml",
+        "lib/netstandard1.6/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.6/HtmlAgilityPack.dll",
+        "lib/netstandard1.6/HtmlAgilityPack.pdb",
+        "lib/netstandard1.6/HtmlAgilityPack.xml",
+        "lib/netstandard2.0/HtmlAgilityPack.deps.json",
+        "lib/netstandard2.0/HtmlAgilityPack.dll",
+        "lib/netstandard2.0/HtmlAgilityPack.pdb",
+        "lib/netstandard2.0/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.XML",
+        "lib/uap10.0/HtmlAgilityPack.dll",
+        "lib/uap10.0/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.pri"
+      ]
+    },
+    "HtmlAgilityPack.CssSelectors/1.0.2": {
+      "sha512": "bB4FeVvcNROENPWQfFSmPQ6q99jGk8ru5QoBB3qnEeaP451fjnqQ0uPuMgmWHAOZIXUAoOQozv/5fEEVSDyIzA==",
+      "type": "package",
+      "path": "htmlagilitypack.cssselectors/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlagilitypack.cssselectors.1.0.2.nupkg.sha512",
+        "htmlagilitypack.cssselectors.nuspec",
+        "lib/net45/HtmlAgilityPack.CssSelectors.dll",
+        "lib/net45/HtmlAgilityPack.CssSelectors.pdb",
+        "lib/net45/HtmlAgilityPack.dll",
+        "lib/net45/HtmlAgilityPack.xml"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/3.0.1": {
+      "sha512": "LYe7cQ8bfWBzbBNZwXsCyvv8wxpiYO1ensbD/LbuUGRVlspSCpfWqUn0fglyZYVMH0wiWhLj1nFooAc8H/UoQA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.3.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.1": {
+      "sha512": "VnytRin0q78cwdhZZ5YAO+6cg0By0iJkk9IoK/vE1vI0qMM6oOjlXNlEFdDRtMXsAmxMPNaRcnpgEJCTe8l76Q==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.0.1": {
+      "sha512": "hqEFHyp+IJleZ31SVRh/TYm1NKNqVFbxqJ9KN20GguYJ3V/cT4SftxuxTc71MI8cYl3myFAcrXyJf05hxJ3f4Q==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.0.1.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/2.1.2": {
+      "sha512": "mOJy3M0UN+LUG21dLGMxaWZEP6xYpQEpLuvuEQBaownaX4YuhH6NmNUlN9si+vNkAS6dwJ//N1O4DmLf2CikVg==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encoding.CodePages/4.5.1": {
+      "sha512": "4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "system.text.encoding.codepages.4.5.1.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "VkNet/1.48.1": {
+      "sha512": "aZnpczL6QdXceF4q0vtTNAM1FiCt+d/pjgBjVahvwJ69Y44BoXMsRoTKSh4OaeYVO9uYZdQU5PZ6IzWFP8/YwA==",
+      "type": "package",
+      "path": "vknet/1.48.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENCE",
+        "lib/net40/VkNet.dll",
+        "lib/net40/VkNet.xml",
+        "lib/net45/VkNet.dll",
+        "lib/net45/VkNet.xml",
+        "lib/net461/VkNet.dll",
+        "lib/net461/VkNet.xml",
+        "lib/netstandard2.0/VkNet.dll",
+        "lib/netstandard2.0/VkNet.xml",
+        "lib/netstandard2.1/VkNet.dll",
+        "lib/netstandard2.1/VkNet.xml",
+        "vknet-icon.PNG",
+        "vknet.1.48.1.nupkg.sha512",
+        "vknet.nuspec"
+      ]
+    },
+    "WebsiteParser/1.1.3": {
+      "sha512": "ba7+w1QH5KAr8hnz1z6BmuVeYZXiXDfA86xT9LV4swSsqoJrAc+hvF48A5QwTgQ++OffiWftrhkHfB9VA7MiWQ==",
+      "type": "package",
+      "path": "websiteparser/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/WebsiteParser.dll",
+        "websiteparser.1.1.3.nupkg.sha512",
+        "websiteparser.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "HtmlAgilityPack >= 1.11.46",
+      "VkNet >= 1.48.1",
+      "WebsiteParser >= 1.1.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Elect\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Elect\\source\\repos\\8March\\8March\\8March.csproj",
+      "projectName": "8March",
+      "projectPath": "C:\\Users\\Elect\\source\\repos\\8March\\8March\\8March.csproj",
+      "packagesPath": "C:\\Users\\Elect\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Elect\\source\\repos\\8March\\8March\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Elect\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "HtmlAgilityPack": {
+            "target": "Package",
+            "version": "[1.11.46, )"
+          },
+          "VkNet": {
+            "target": "Package",
+            "version": "[1.48.1, )"
+          },
+          "WebsiteParser": {
+            "target": "Package",
+            "version": "[1.1.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"HtmlAgilityPack.CssSelectors 1.0.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "HtmlAgilityPack.CssSelectors",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
