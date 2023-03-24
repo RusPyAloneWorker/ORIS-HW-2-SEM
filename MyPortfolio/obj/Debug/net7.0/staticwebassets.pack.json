@@ -5,12 +5,52 @@
       "PackagePath": "staticwebassets\\MyPortfolio.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\facts.css",
+      "PackagePath": "staticwebassets\\css\\facts.css"
+    },
+    {
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\general.css",
+      "PackagePath": "staticwebassets\\css\\general.css"
+    },
+    {
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\hero.css",
+      "PackagePath": "staticwebassets\\css\\hero.css"
+    },
+    {
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\portfolio.css",
+      "PackagePath": "staticwebassets\\css\\portfolio.css"
+    },
+    {
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\resume.css",
+      "PackagePath": "staticwebassets\\css\\resume.css"
+    },
+    {
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\services.css",
+      "PackagePath": "staticwebassets\\css\\services.css"
+    },
+    {
       "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\skills.css",
+      "PackagePath": "staticwebassets\\css\\skills.css"
+    },
+    {
       "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\testimonials.css",
+      "PackagePath": "staticwebassets\\css\\testimonials.css"
     },
     {
       "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\favicon.ico",
