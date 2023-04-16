@@ -1,0 +1,15 @@
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\bin\Debug\net7.0\MyPortfolio.Application.deps.json
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\bin\Debug\net7.0\MyPortfolio.Application.dll
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\bin\Debug\net7.0\MyPortfolio.Application.pdb
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\bin\Debug\net7.0\MyPortfolio.Core.dll
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\bin\Debug\net7.0\MyPortfolio.Core.pdb
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\obj\Debug\net7.0\MyPortfolio.Application.csproj.AssemblyReference.cache
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\obj\Debug\net7.0\MyPortfolio.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\obj\Debug\net7.0\MyPortfolio.Application.AssemblyInfoInputs.cache
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\obj\Debug\net7.0\MyPortfolio.Application.AssemblyInfo.cs
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\obj\Debug\net7.0\MyPortfolio.Application.csproj.CoreCompileInputs.cache
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\obj\Debug\net7.0\MyPortfolio.Application.csproj.CopyComplete
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\obj\Debug\net7.0\MyPortfolio.Application.dll
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\obj\Debug\net7.0\refint\MyPortfolio.Application.dll
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\obj\Debug\net7.0\MyPortfolio.Application.pdb
+C:\Users\Elect\source\repos\MyPortfolio\MyPortfolio.Application\obj\Debug\net7.0\ref\MyPortfolio.Application.dll

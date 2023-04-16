@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace MyPortfolio.Views.Home
+namespace MyPortfolio.Presentation.Views.Home
 {
     public class AboutModel : PageModel
     {

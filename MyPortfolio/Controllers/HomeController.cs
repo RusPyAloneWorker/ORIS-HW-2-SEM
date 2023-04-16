@@ -1,16 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyPortfolio.Models;
+using MyPortfolio.Application.ServiceAbstractions;
+using MyPortfolio.Core.Interfaces;
+using MyPortfolio.Core.Models;
+using MyPortfolio.Presentation.Models;
 using System.Diagnostics;
 
-namespace MyPortfolio.Controllers
+namespace MyPortfolio.Presentation.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IJobPositionService _jobPositionService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(
+                ILogger<HomeController> logger,
+                IJobPositionService jobPositionService
+            )
         {
             _logger = logger;
+            _jobPositionService = jobPositionService;
         }
 
         public IActionResult Hero()
@@ -38,9 +46,14 @@ namespace MyPortfolio.Controllers
             return View();
         }
 
-        public IActionResult Resume()
+        public async Task<IActionResult> Resume()
         {
-            return View();
+            var resumes = await _jobPositionService.GetAll();
+            object model = new { 
+                    Resumes = resumes
+                };
+
+            return View(model);
         }
 
         public IActionResult Services()

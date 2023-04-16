@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MyPortfolio.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MyPortfolio.bundle.scp.css"
+      "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MyPortfolio.Presentation.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyPortfolio.Presentation.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Elect\\source\\repos\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\about.css",
@@ -689,20 +689,20 @@
       "PackagePath": "staticwebassets\\lib\\waypoints\\noframework.waypoints.js"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MyPortfolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MyPortfolio.Presentation.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MyPortfolio.props",
-      "PackagePath": "build\\MyPortfolio.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MyPortfolio.Presentation.props",
+      "PackagePath": "build\\MyPortfolio.Presentation.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MyPortfolio.props",
-      "PackagePath": "buildMultiTargeting\\MyPortfolio.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MyPortfolio.Presentation.props",
+      "PackagePath": "buildMultiTargeting\\MyPortfolio.Presentation.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MyPortfolio.props",
-      "PackagePath": "buildTransitive\\MyPortfolio.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MyPortfolio.Presentation.props",
+      "PackagePath": "buildTransitive\\MyPortfolio.Presentation.props"
     }
   ],
   "ElementsToRemove": []
